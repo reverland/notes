@@ -1,0 +1,19 @@
+In [313]: def guess_key(key):
+     ...:     index = len(key)
+     ...:     while True:
+     ...:         ci = raw_input("select which cipher: ")
+     ...:         ch = raw_input("input guess char: ")
+     ...:         newkey = key + chr(ord(globals()['c' + str(ci)].decode("hex")[index]) ^ ord
+     ...: (ch))
+     ...:         for i in range(11):
+     ...:             print(i, ":", strxor(newkey, globals()['c' + str(i)].decode("hex")))
+     ...:         success = raw_input("is the result right?: ")
+     ...:         if success == "y":
+     ...:             index += 1
+     ...:             key = newkey
+     ...:         else:
+     ...:             continue
+     ...:         print("msg: ", strxor(key, c.decode("hex")))
+     ...:         print("key: ", key)
+     ...:
+     ...:
