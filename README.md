@@ -11,12 +11,9 @@ canvas {
     width: 100vw;
     height: 50px;
 }
-.wiki-content {
-    background: black;
-    color: lightblue;
-}
 </style>
 <script>
+snowStorm.snowColor = '#99ccff';
 var canvas = document.querySelector("canvas");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
