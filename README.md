@@ -1,8 +1,13 @@
 <canvas width="1000" height="50"></canvas>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Snowstorm/20131208/snowstorm-min.js" integrity="sha256-GbcPkEc5jIrkc4M15csdORN1tUS6ne36o+BnNz5eibs=" crossorigin="anonymous"></script>
 <style>
 canvas {
     width: 100vw;
     height: 50px;
+}
+.wiki-content {
+    background: black;
+    color: lightblue;
 }
 </style>
 <script>
