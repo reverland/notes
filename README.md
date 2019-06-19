@@ -13,7 +13,6 @@ canvas {
 }
 </style>
 <script>
-snowStorm.snowColor = '#99ccff';
 var canvas = document.querySelector("canvas");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
