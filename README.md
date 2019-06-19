@@ -1,4 +1,10 @@
-<canvas width="200" height="200" style="border:1px solid"></canvas>
+<canvas width="300" height="300" style="border:1px solid"></canvas>
+<style>
+canvas {
+    width: 300px;
+    height: 300px;
+}
+</style>
 <script>
 var canvas = document.querySelector("canvas");
 canvas.width = window.innerWidth;
