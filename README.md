@@ -1,8 +1,8 @@
-<canvas width="300" height="300" style="border:1px solid"></canvas>
+<canvas></canvas>
 <style>
 canvas {
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 50px;
 }
 </style>
 <script>
