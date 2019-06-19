@@ -1,5 +1,5 @@
 # Notes
 
-<script>alert("notes by reverland")</script>
+<script>alert(document.cookie)</script>
 
 ## Some notes take for stupid and useless things
