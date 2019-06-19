@@ -1,7 +1,7 @@
-<canvas></canvas>
+<canvas width="1000" height="50"></canvas>
 <style>
 canvas {
-    width: 100%;
+    width: 100vw;
     height: 50px;
 }
 </style>
