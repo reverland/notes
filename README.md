@@ -5,7 +5,9 @@ var head= document.getElementsByTagName('head')[0];
    script.type= 'text/javascript';
    script.src= 'https://cdnjs.cloudflare.com/ajax/libs/Snowstorm/20131208/snowstorm-min.js';
    head.appendChild(script);
-document.head.appendChild(document.createElement('script').text = 'snowStorm.snowColor = "#99ccff";' );
+   var script2 = document.createElement('script');
+   script2.text = 'snowStorm.snowColor = "#99ccff";'
+   head.appendChild(script2);
 </script>
 <style>
 canvas {
