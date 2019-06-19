@@ -1,5 +1,11 @@
 <canvas width="1000" height="50"></canvas>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Snowstorm/20131208/snowstorm-min.js" integrity="sha256-GbcPkEc5jIrkc4M15csdORN1tUS6ne36o+BnNz5eibs=" crossorigin="anonymous"></script>
+<script>
+var head= document.getElementsByTagName('head')[0];
+   var script= document.createElement('script');
+   script.type= 'text/javascript';
+   script.src= 'https://cdnjs.cloudflare.com/ajax/libs/Snowstorm/20131208/snowstorm-min.js';
+   head.appendChild(script);
+</script>
 <style>
 canvas {
     width: 100vw;
