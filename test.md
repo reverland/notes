@@ -12,6 +12,7 @@ canvas {
     height: 50px;
 }
 </style>
+<iframe src="https://www.random.org/widgets/integers/iframe?title=Dice+Roller&buttontxt=Roll+it!&width=160&height=200&border=on&bgcolor=%23FFFFFF&txtcolor=%23777777&altbgcolor=%23006600&alttxtcolor=%23000000&defaultmin=1&defaultmax=6&fixed=on"></iframe>
 <script>
 var canvas = document.querySelector("canvas");
 canvas.width = window.innerWidth;
